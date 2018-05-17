@@ -1,6 +1,9 @@
 # App-Logga
 This is a Nodejs application logger. Currently, it wraps the [winston](https://www.npmjs.com/package/winston) NPM package.
 
+## Installation
+`npm i -S @phacce/app-logga`
+
 ## Usage
 ```javascript
 const Logger = require('app-logga');
