@@ -1,7 +1,10 @@
 {
-  "name": "app-logga",
+  "name": "@phacce/app-logga",
   "version": "0.1.0",
   "description": "A logger wrapper for Nodejs applications",
+  "engines": {
+    "node": ">=8.9.1"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
