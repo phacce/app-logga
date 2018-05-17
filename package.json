@@ -1,0 +1,21 @@
+{
+  "name": "app-logga",
+  "version": "0.1.0",
+  "description": "A logger wrapper for Nodejs applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "logger",
+    "winston"
+  ],
+  "author": "Ikechukwu A. Kalu, Bestbrain L. Igbaji",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
