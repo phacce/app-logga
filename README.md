@@ -8,7 +8,9 @@ This is a Nodejs application logger. Currently, it wraps the [winston](https://w
 ```javascript
 const Logger = require('app-logga');
 
-let logger = new Logger(true);
+let logger = new Logger(true); // arg 'true' enables file logging
 logger.debug('Hello some world!');
+logger.info('Some infomation in green');
+logger.warn('Hey!, this is your last warning before it crashes');
 logger.error('Now this is some error');
 ```
