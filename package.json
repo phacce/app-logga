@@ -6,6 +6,10 @@
     "node": ">=8.9.1"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phacce/app-logga.git"
+  },
   "scripts": {
     "test": "mocha --reporter spec"
   },
